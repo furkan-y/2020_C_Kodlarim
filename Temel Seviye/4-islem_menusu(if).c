@@ -1,6 +1,6 @@
-#include <stdio.h>  // Standart input output kütüphanesi
-#include <conio.h>  // Windows iþletim sistemi içindir
-#include <locale.h> // Türkçe dil kütüphanesi için
+#include <stdio.h>  
+#include <conio.h>  
+#include <locale.h> 
 
 int main()
 {	setlocale(LC_ALL, "Turkish");
