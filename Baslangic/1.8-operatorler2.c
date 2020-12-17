@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <conio.h>
+#include <locale.h>
 
 int main()
-{
+{	setlocale(LC_ALL,"Turkish")
+
 	int a=10; // a isminde bir deðiþken main fonksiyonu içinde tanýmlanýyor
 	{
 		//küme parantezleri ile bir alt blok oluþtu

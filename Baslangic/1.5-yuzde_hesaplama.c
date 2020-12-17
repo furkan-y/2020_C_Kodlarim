@@ -5,7 +5,7 @@
 int main()
 {	setlocale(LC_ALL,"Turkish");
 	
-// Kullanýcýdan 2 sayý alýp yüzdesini hesaplama 
+	// Kullanýcýdan 2 sayý alýp yüzdesini hesaplama 
 	
 	float a,b,sonuc;
 	printf("Yüzdesini almak istediðiniz sayýyý giriniz: ");

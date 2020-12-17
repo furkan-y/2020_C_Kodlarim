@@ -3,7 +3,7 @@
 #include <locale.h>
 
 int main()
-{	setlocale(LC_ALL, "Turkish");
+{	setlocale(LC_ALL,"Turkish");
 
 	// 1'den 10'a kadar sayýlarý ekrana yazdýrmak
 	for (int l=1; l<=10; l++) // i++  ==  i+=1  ==  i=i+1    sonra  i--	 i-=5

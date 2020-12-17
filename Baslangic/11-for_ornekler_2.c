@@ -3,7 +3,7 @@
 #include <locale.h>
 
 int main()
-{	setlocale(LC_ALL, "Turkish");
+{	setlocale(LC_ALL,"Turkish");
 
 	// Kullanýcýdan kelime ve ekranda kaç defa yazýlmak istendiðini alan program
 	char klm[20]; int defa=0; 

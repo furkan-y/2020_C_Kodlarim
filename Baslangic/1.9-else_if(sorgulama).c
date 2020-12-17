@@ -4,9 +4,9 @@
 #include <math.h>
 
 int main()
-{	setlocale(LC_ALL, "Turkish");
+{	setlocale(LC_ALL,"Turkish");
 
-// Girilen 2 sayýdan hangisinin büyük olduðunu söyleyen program
+	// Girilen 2 sayýdan hangisinin büyük olduðunu söyleyen program
 	
 	int deger1, deger2;
 	printf("Birinci sayýyý giriniz: ");

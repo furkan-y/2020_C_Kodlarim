@@ -4,7 +4,7 @@
 #include <math.h>
 
 int main()
-{	setlocale(LC_ALL, "Turkish");
+{	setlocale(LC_ALL,"Turkish");
 
 // Bir havuzu a musluðu 3, b musluðu 8 ve c musluðu 12 saatte dolduruyor ise 3 musluk beraber kaç saatte doldurur
 	float saat= 1.0/3.0 + 1.0/8.0 + 1.0/12.0;

@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <conio.h>
+#include <locale.h>
 
 int main()
-{
+{	setlocale(LC_ALL,"Turkish");
 	
 	// Ýçi dolu eþkenar üçgen çizimi
 	int bos1=5, tane=1;

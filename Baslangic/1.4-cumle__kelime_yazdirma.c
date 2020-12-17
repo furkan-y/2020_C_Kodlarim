@@ -5,7 +5,7 @@
 int main()
 {	setlocale(LC_ALL,"Turkish");
 	
-// Kullanýcýdan cümle ve kelime alýp geri yazdýrma
+	// Kullanýcýdan cümle ve kelime alýp geri yazdýrma
 
 	char cumle[50];
 	printf("Bir cümle giriniz: ");
@@ -15,7 +15,7 @@ int main()
 	
 	char kelime[25];
 	printf("\nBir kelime giriniz: ");
-	scanf("%s",kelime);  // Scanf cümlesi gets'den önce olursa kod çalýþmaz
+	scanf("%s",kelime);  // Scanf gets'den önceki satýrlardan birinde olursa kod çalýþmaz
 	printf("Girdiðiniz kelime: %s",kelime);
 	
     getch();

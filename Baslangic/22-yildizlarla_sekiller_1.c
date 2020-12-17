@@ -3,7 +3,7 @@
 #include <locale.h>
 
 int main()
-{	setlocale(LC_ALL, "Turkish");
+{	setlocale(LC_ALL,"Turkish");
 	
 	// Yýldýzlar ve döngülerle dik üçgen çizmek
 	for (int i=1; i<=5; i+=1) // Ýlk for satýr sayýsýný belirler

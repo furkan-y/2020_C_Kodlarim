@@ -3,7 +3,7 @@
 #include <locale.h>
 
 int main()
-{	setlocale(LC_ALL, "Turkish");
+{	setlocale(LC_ALL,"Turkish");
 	
 	// Ters eþkenar üçgenin 1'den 7'ye rakamlarla çizimi
 	for (int s=1; s<=4; s++)

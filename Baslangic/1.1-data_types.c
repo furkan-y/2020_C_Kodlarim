@@ -1,10 +1,10 @@
-#include <stdio.h>
-#include <conio.h>
-#include <locale.h> 
+#include <stdio.h>	// Standard input output (Temel C komutlarýný barýndýrýr)
+#include <conio.h>	// Windows iþletim sisteminde gerekli 
+#include <locale.h> // Türkçe dil kütüphanesi (Türkçe karakterler kullanabilmek için)
 
 int main()
 {
-	setlocale(LC_ALL, "Turkish");
+	setlocale(LC_ALL,"Turkish");
 	
 	int i = 10; 
 	short int si = 20;

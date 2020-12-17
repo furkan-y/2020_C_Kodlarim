@@ -4,7 +4,7 @@
 #include <math.h>
 
 int main()
-{	setlocale(LC_ALL, "Turkish");
+{	setlocale(LC_ALL,"Turkish");
 
 // Kullanýcýdan bugün'ün tarihini ve kaç yaþýnda olduðunu alarak doðum tarihini yýl olarak yazan program
 	int bugun,dogum_yili; 

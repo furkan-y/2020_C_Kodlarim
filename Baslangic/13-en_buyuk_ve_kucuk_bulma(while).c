@@ -3,7 +3,7 @@
 #include <locale.h>
 
 int main()
-{	setlocale(LC_ALL, "Turkish");
+{	setlocale(LC_ALL,"Turkish");
 
 	// Klavyeden girilen 5 sayýdan en büyüðünü ve en küçüðünü while döngüsü kullanarak yazdýran program
 	int sayi,max,min,sayac=0;

@@ -14,29 +14,32 @@ int main()
 	z=ceil(z); // 4.0'ý ve 4'ü yukarý yuvarlamaz
 	printf("\n%f, %f",y,z);
 	
-	int a=16;
-	int b=sqrt(a); // sqrt() parantez içinin karekökünü alýr
-	printf("\n%d",b);
 	
-	int taban=5, us=2;
-	int sonuc=pow(taban,us);  // 2 üzeri 5, üs alma
-	printf("\n%d'in %d'inci kuvveti: %d",taban,us,sonuc);
-	
-	printf("\n___________________________________________________\n");
-	
+	// Girilen deðerin karesini yazdýran program
 	int deger,son;
-	printf("Bir deðer giriniz: ");
+	printf("\n\nBir deðer giriniz: ");
 	scanf("%d",&deger);
 	printf("Girdiðiniz sayýnýn karesi: %d",deger*deger);
 	son=pow(deger,2);
 	printf("\nGirdiðiniz sayýnýn karesi: %d",son);
 	
+	
+	// Girilen deðerin karekökünü yazdýran program
 	int sayi; float sonc;
 	printf("\n\nBir tamsayý giriniz: ");
 	scanf("%d",&sayi),
-	sonc=sqrt(sayi);
-	printf("Girdiðiniz sayý: %d karekökü: %f",sayi,sonc);
+	sonc=sqrt(sayi);	// sqrt() parantez içinin karekökünü alýr
+	printf("Girdiðiniz sayýnýn karekökü: %f",sayi,sonc);
 	
+	
+	// Taban ve üssü kullanýcýdan alýp sonucu yazdýran program
+	int taban,us;
+	printf("\n\nTabaný giriniz: ");
+	scanf("%d",&taban);
+	printf("\nDerecesi: ");
+	scanf("%d",&us);
+	int sonuc=pow(taban,us);  // 
+	printf("\n\n%d sayýsýnýn %d. dereceden kuvveti: %d",taban,us,sonuc);
 	
 	getch();
 }

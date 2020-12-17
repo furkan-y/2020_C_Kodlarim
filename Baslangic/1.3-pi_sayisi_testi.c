@@ -5,7 +5,7 @@
 int main()
 {	setlocale(LC_ALL,"Turkish");
 
-// Pi sayýsýný virgülden sonraki 3 hanesiyle isteyen ve söyleyen program	
+	// Pi sayýsýný virgülden sonraki 3 hanesiyle isteyen ve söyleyen program	
 	float deger, pi=3.1415;
 	printf("Lütfen pi sayýsýný virgülden sonraki 3 hanesiyle beraber giriniz: ");
 	scanf("%f",&deger); // scanf deðer çekmeye yarar

@@ -3,7 +3,7 @@
 #include <locale.h> 
 
 int main()
-{	setlocale(LC_ALL, "Turkish");
+{	setlocale(LC_ALL,"Turkish");
 
 // Kullanýcýdan 2 sayý alarak onlarla toplama, çýkarma, çarpma ve bölme iþlemleri gerçekleþtirebileceði if þartýyla iþlem menüsü oluþturma
 

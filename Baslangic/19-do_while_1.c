@@ -3,7 +3,7 @@
 #include <locale.h>
 
 int main() 
-{	setlocale(LC_ALL, "Turkish");
+{	setlocale(LC_ALL,"Turkish");
 
 	// do-while pek tercih edilmez belirli sebepleri vardýr
 		

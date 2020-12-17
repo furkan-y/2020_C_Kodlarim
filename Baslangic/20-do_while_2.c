@@ -3,7 +3,7 @@
 #include <locale.h>
 
 int main()
-{	setlocale(LC_ALL, "Turkish");
+{	setlocale(LC_ALL,"Turkish");
 	
 	//10 sayý alýp aralarýndan en büyüðünü ve en küçüðünü yazdýran program
 	int sayac=1,sayi,max,min;
