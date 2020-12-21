@@ -83,12 +83,6 @@ int main()
 		}
 		printf("\n");
 	}
-	
 
-	
-	
-
-
-	
 	getch();
 }

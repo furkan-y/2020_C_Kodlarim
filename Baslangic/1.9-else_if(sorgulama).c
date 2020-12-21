@@ -15,15 +15,13 @@ int main()
 	scanf("%d",&deger2);
 	printf("Girdiðiniz deðerler:%d ve %d\n",deger1,deger2);
 	
-	if (deger1 > deger2) {
+	// if'den veya else if'den sonra araya koþulda olmayan baþka bir kod girerse else'in baðlantýsý kopar(dangling else)
+	if (deger1 > deger2)
 		printf("Birinci sayý ikinci sayýdan büyüktür\n\n");
-	}
-	else if (deger1 < deger2) { 
+	else if (deger1 < deger2)
 		printf("Ýkinci sayý birinci sayýdan büyüktür\n\n"); // else if istenildiði kadar çoðaltýlabilir
-	}
-	else {
-		printf("Birinci sayý ikinci sayýya eþittir\n\n");
-	}
+	else
+		printf("Birinci sayý ikinci sayýya eþittir\n\n");	
 	
 	
 	int sy;

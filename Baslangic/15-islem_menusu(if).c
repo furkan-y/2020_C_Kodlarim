@@ -33,6 +33,5 @@ int main()
 	else
 		printf("Geçersiz deðer girdiniz!");
 	
-	
 	getch();
 }

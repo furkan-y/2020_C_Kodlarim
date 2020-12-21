@@ -6,7 +6,7 @@
 int main()
 {	setlocale(LC_ALL,"Turkish");
 
-// Kullanýcýdan bugün'ün tarihini ve kaç yaþýnda olduðunu alarak doðum tarihini yýl olarak yazan program
+	// Kullanýcýdan bugün'ün tarihini ve kaç yaþýnda olduðunu alarak doðum tarihini yýl olarak yazan program
 	int bugun,dogum_yili; 
 	printf("Þu anda hangi yýl: ");
 	scanf("%d",&bugun);
@@ -14,7 +14,7 @@ int main()
 	scanf("%d",&dogum_yili);
 	printf("%d Yaþýndasýnýz",bugun-dogum_yili); 
 	
-// Yaþ sýnýrý denetleme
+	// Yaþ sýnýrý denetleme
 	int year;
 	printf("\nDoðum tarihinizi giriniz: ");
 	scanf("%d",&year);

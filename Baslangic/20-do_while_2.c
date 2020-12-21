@@ -38,7 +38,6 @@ int main()
 		scanf("%d",&sayi1);
 		toplam=toplam+sayi1;
 	}while(sayi1!=0);
-
 	printf("Toplam: %d",toplam);
 
 	

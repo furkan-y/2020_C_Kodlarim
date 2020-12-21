@@ -5,6 +5,8 @@
 int main()
 {	setlocale(LC_ALL,"Turkish");
 
+	// While döngüsü ile yazýlan her program for döngüsü ile de yazýlabilir bunun tersi de geçerlidir
+
 	// 1'den 10'a kadar sayýlarý ekrana yazdýrmak
 	for (int l=1; l<=10; l++) // i++  ==  i+=1  ==  i=i+1    sonra  i--	 i-=5
 	printf("%d,",l);
