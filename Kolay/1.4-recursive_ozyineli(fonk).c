@@ -2,9 +2,9 @@
 #include <conio.h>
 #include <locale.h>
 
-	/* Recursive(Özyineli) fonksiyon kendi kendi çaðýran döngüdür. 
-	Bütün döngüler recursive fonksiyon bütün recursive fonksiyonlar döngü olarak yazýlabilir 
-	Recursive fonksiyonlarýn programcý tarafýndan anlaþýlmasý kolaydýr ama hafýzayý verimsiz kullanýr */
+/* Recursive(Özyineli) fonksiyon kendi kendi çaðýran döngüdür. 
+Bütün döngüler recursive fonksiyon bütün recursive fonksiyonlar döngü olarak yazýlabilir 
+Recursive fonksiyonlarýn programcý tarafýndan anlaþýlmasý kolaydýr ama hafýzayý verimsiz kullanýr */
 	
 int	fonk(int)
 

@@ -4,8 +4,9 @@
 
 // Verilen sayýnýn kombinasyonunu bulan kod
 
-int fact(int);
+int fonction(int);
 int comb(int,int);
+
 int main()
 {	setlocale(LC_ALL,"Turkish");
 
@@ -15,11 +16,12 @@ int main()
 	printf("Kombinasyonu: %d",comb(x,y));
 	getch();
 }
+
 int comb(int x,int y)
 {
-	return fact(x)/(fact(y)*(fact(x-y)));
+	return fonction(x)/(fonction(y)*(fonction(x-y)));
 }
-int fact(int x)
+int fonction(int x)
 {
 	int sonuc=1;
 	for(int i=1; i<=x; i++)

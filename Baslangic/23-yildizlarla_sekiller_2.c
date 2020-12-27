@@ -17,6 +17,7 @@ int main()
 		tane+=2;
 		printf("\n");
 	}	
+	
 	printf("________________________________________\n\n");
 	
 	// Dik üçgen ve saðýna simetrisi
@@ -37,27 +38,16 @@ int main()
 	
 	printf("________________________________________\n\n");
 	
-	// Kum saati çizimi
-	int defa1=9;
-	for (int i=1; i<=5; i+=1)
+	// Çapraz diyagonal X çizdirme
+		for(int i=1; i<=5; i++)
 	{
-		for (int a=1; a<=i; a+=1)
+		for(int j=1; j<=5; j++)
+		{
+			if(i==j || i+j==6)
+				printf("*");
+			else
 			printf(" ");
-		for (int j=defa1; j>=1; j-=1)
-			printf("*");
-			
-		defa1-=2;
-		printf("\n");
-	}
-	int kez=1;
-	for (int i=1; i<=5; i+=1)
-	{
-		for (int a=5; a>=i; a-=1)
-			printf(" ");
-		for (int j=1; j<=kez; j+=1)
-			printf("*");
-			
-		kez+=2;
+		}
 		printf("\n");
 	}
 	

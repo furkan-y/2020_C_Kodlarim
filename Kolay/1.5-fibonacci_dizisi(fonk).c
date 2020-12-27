@@ -2,8 +2,10 @@
 #include <conio.h>
 #include <locale.h>
 
-// Verilen sýradaki fibonacci sayýsýný bulan kod
+// Kullanýcýdan alýnan sýradaki fibonacci sayýsýný yazdýran kod
+
 int fib(int);
+
 int main()
 {	setlocale(LC_ALL,"Turkish");
 

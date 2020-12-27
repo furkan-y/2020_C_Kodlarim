@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <conio.h>
 #include <locale.h>
+#define degisken 5 /* Programda degisken gördüðü her yere 5 sayýsýný atar
+while döngüsünün içine 0 yazýlýrsa çalýþmaz onun dýþýndaki tüm sayýlar doðruyu ifade eder
+böyle olursa sonsuz döngüye girer Pause Break ile döngü kýrýlabilir */
 
 // Fibonacci sayý dizisinin ilk 12 sayýsýný ekrana yazdýran program  1,1,2,3,5,8...
 

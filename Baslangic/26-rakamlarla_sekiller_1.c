@@ -49,5 +49,21 @@ int main()
 		printf("\n");
 	}
 	
+	printf("____________________________________________________________\n\n");
+	
+	// Rakamlarla içi boþ eþkenar üçgen çizimi
+	int sy=1;
+	for (int s=1; s<=7; s++)
+	{
+		for (int i=8-s; i>=1; i--)
+			printf("%d",i);
+		for (int b=1; b<=sy; b++)
+			printf(" ");
+			sy+=2;
+		for (int k=2+s; k<=9; k++)
+			printf("%d",k);
+		printf("\n");
+	}
+	
 	getch();
 }

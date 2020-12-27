@@ -39,20 +39,31 @@ int main()
 	}
 	
 	printf("____________________________________________________________\n\n");
-	
-	// Rakamlarla içi boþ eþkenar üçgen çizimi
-	int sy=1;
-	for (int s=1; s<=7; s++)
+		
+	// Binom&Pascal üçgeni yazdýrma
+	for(int i=0; i<=10; i++)
 	{
-		for (int i=8-s; i>=1; i--)
-			printf("%d",i);
-		for (int b=1; b<=sy; b++)
-			printf(" ");
-			sy+=2;
-		for (int k=2+s; k<=9; k++)
-			printf("%d",k);
+		for(int j=0; j<=i; j++)
+		{
+			int nf=1;
+			for(int p=1; p<=i; p++) 
+			{
+				nf*=p;
+			}
+			int kf=1;
+			for(int p=1; p<=j; p++)
+			{
+				kf*=p;
+			}
+			int nkf=1;
+			for(int p=1; p<=i-j; p++)
+			{
+				nkf*=p;
+			}
+			printf("%d ",nf/(kf*nkf));
+		}
 		printf("\n");
 	}
-	
+
 	getch();
 }
